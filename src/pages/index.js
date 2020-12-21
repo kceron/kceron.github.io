@@ -3,15 +3,18 @@ import React from 'react';
 import Layout from '../components/Layout';
 import PageFooter from '../components/PageFooter';
 import SideBar from '../components/SideBar';
+import ContactForm from '../components/contactForm';
 
 import pic1 from '../assets/images/pic01.png';
 import pic8 from '../assets/images/avatar.jpg';
 import Scroll from '../components/Scroll';
+import Resume from "../assets/docs/Resume.pdf";
 
 const sections = [
   { id: 'top', name: 'Intro', icon: 'fa-home' },
   { id: 'portfolio', name: 'Portfolio', icon: 'fa-th' },
   { id: 'about', name: 'About Me', icon: 'fa-user' },
+  // { id: 'cv', cv: 'Download CV', icon: 'fa-download'},
   { id: 'contact', name: 'Contact', icon: 'fa-envelope' },
 ];
 
@@ -48,14 +51,15 @@ const IndexPage = () => (
           </header>
 
           <p>
-          'The art of programming is the skill of controlling complexity'
+          ' The art of programming is the skill of controlling complexity '
           </p>
 
           <div className="row">
             <div className="col-4 col-12-mobile">
               {/* CAN FIT ANOTHER PROJECT HERE */}
               <article className="item">
-                <a href="/#" className="image fit">
+                {/* edited line below to change home route? */}
+                <a href="/home" className="image fit">
                   <img src={pic1} alt="" />
                 </a>
                 <header>
@@ -95,7 +99,7 @@ const IndexPage = () => (
             <h2>About Karem with an "m"</h2>
           </header>
 
-          <a href="/#" className="image featured">
+          <a href="/about" className="image featured">
             <img src={pic8} alt="" />
           </a>
 
@@ -103,11 +107,19 @@ const IndexPage = () => (
           Hello all!
           </p>
           <p>
-          I am Karem with an "m", a Full-Stack Developer with experience building web applications in React, Redux, JavaScript, Ruby on Rails and PostgreSQL.
+          I am Karem, a Full-Stack Developer with experience building web applications in React, Redux, JavaScript, Ruby on Rails and PostgreSQL.
           </p>
           <p>
           Currently located in NYC.
           </p>
+          
+          <p className="Download-butt">
+            <a href={Resume} className="button" download>
+              <i className="fa fa-download" ></i>
+              Download Resume
+            </a>
+          </p>
+          
         </div>
       </section>
 
@@ -116,25 +128,10 @@ const IndexPage = () => (
           <header>
             <h2> Let's talk!</h2>
           </header>
-
-          <form method="post" action="#">
-            <div className="row">
-              <div className="col-6 col-12-mobile">
-                <input type="text" name="name" placeholder="Name" />
-              </div>
-              <div className="col-6 col-12-mobile">
-                <input type="text" name="email" placeholder="Email" />
-              </div>
-              <div className="col-12">
-                <textarea name="message" placeholder="Message" />
-              </div>
-              <div className="col-12">
-                <input type="submit" value="Send Message" />
-              </div>
-            </div>
-          </form>
+            <ContactForm />
         </div>
       </section>
+
     </div>
 
     <PageFooter />
