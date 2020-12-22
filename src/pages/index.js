@@ -31,7 +31,7 @@ const IndexPage = () => (
               <br />
               Full-Stack Web Developer
             </h2>
-            <p>I have made few things check it out.</p>
+            <p>Here are some of my projects.</p>
           </header>
 
           <footer>

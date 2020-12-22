@@ -17,11 +17,11 @@ module.exports = {
         name: 'Github',
         url: 'https://github.com/kceron',
       },
-      {
-        icon: 'fa-twitter',
-        name: 'Twitter',
-        url: 'https://twitter.com/karemmm_',
-      },
+      // {
+      //   icon: 'fa-twitter',
+      //   name: 'Twitter',
+      //   url: 'https://twitter.com/karemmm_',
+      // },
       {
         icon: 'fab fa-linkedin',
         name: 'LinkeDin',
