@@ -2,7 +2,7 @@ import React from 'react';
 import Scrollspy from 'react-scrollspy';
 import Scroll from '../Scroll';
 
-export default function Nav({ sections = [] }) {
+function Nav({ sections = [] }) {
   return (
     <nav id="nav">
       <ul>
@@ -27,3 +27,5 @@ export default function Nav({ sections = [] }) {
     </nav>
   );
 }
+
+export default Nav;

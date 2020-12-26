@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function TopNav({ title, onMenuClick = () => {} }) {
+function TopNav({ title, onMenuClick = () => {} }) {
   return (
     <div id="headerToggle">
       <a
@@ -16,3 +16,5 @@ export default function TopNav({ title, onMenuClick = () => {} }) {
     </div>
   );
 }
+
+export default TopNav;

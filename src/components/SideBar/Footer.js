@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Footer({ socialLinks = [] }) {
+function Footer({ socialLinks = [] }) {
   return (
     <div className="bottom">
       <ul className="icons">
@@ -18,3 +18,5 @@ export default function Footer({ socialLinks = [] }) {
     </div>
   );
 }
+
+export default Footer;

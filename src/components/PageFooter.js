@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function PageFooter() {
+function PageFooter() {
   return (
     <div id="footer">
       <ul className="copyright">
@@ -9,3 +9,5 @@ export default function PageFooter() {
     </div>
   );
 }
+
+export default PageFooter;
