@@ -121,7 +121,7 @@ const IndexPage = () => (
         </div>
       </section>
 
-      <section id="skills" className="five">
+      <section id="skills" className="four">
         <div className="container">
           <header>
             <h2>Skills</h2>
@@ -191,7 +191,7 @@ const IndexPage = () => (
         </div>
       </section>
 
-      <section id="contact" className="four">
+      <section id="contact" className="five">
         <div className="container">
           <header>
             <h2> Let's talk!</h2>
