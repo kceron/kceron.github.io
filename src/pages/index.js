@@ -107,7 +107,7 @@ const IndexPage = () => (
           <p>Hello all!</p>
           <p>
             I am Karem, a Full-Stack Developer with experience building web
-            applications in React, Redux, JavaScript, Ruby on Rails and
+            applications in React, Redux, JavaScript, Ruby on Rails, SQL and
             PostgreSQL.
           </p>
           <p>Currently located in NYC.</p>
