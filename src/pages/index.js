@@ -106,11 +106,10 @@ const IndexPage = () => (
 
           <p>Hello all!</p>
           <p>
-            I am Karem, a Full-Stack Developer with experience building web
+            I am Karem, and this is my face. I am originally from Mexico, currently located in NYC. I am a Full-Stack Developer with experience building web
             applications in React, Redux, JavaScript, Ruby on Rails, SQL and
             PostgreSQL.
           </p>
-          <p>Currently located in NYC.</p>
 
           <p className="Download-butt">
             <a href={Resume} className="button" download>
