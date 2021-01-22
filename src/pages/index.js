@@ -107,7 +107,7 @@ const IndexPage = () => (
           <p>Hello all!</p>
           <p>
             I am Karem, and this is my face. I am originally from Mexico, currently located in NYC. I am a Full-Stack Developer with experience building web
-            applications in React, Redux, JavaScript, Ruby on Rails, SQL and
+            applications in React, Redux, JavaScript, jQuery, Ruby on Rails, SQL and
             PostgreSQL.
           </p>
 
