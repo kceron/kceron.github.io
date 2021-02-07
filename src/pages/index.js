@@ -4,6 +4,7 @@ import Layout from "../components/Layout"
 import PageFooter from "../components/PageFooter"
 import SideBar from "../components/SideBar"
 import ContactForm from "../components/contactForm"
+import Skills from "./Skills"
 
 import pic1 from "../assets/images/pic01.png"
 import pic8 from "../assets/images/avatar.jpg"
@@ -125,68 +126,7 @@ const IndexPage = () => (
           <header>
             <h2>Skills</h2>
           </header>
-
-          {/* <div>
-            <h3>Languages</h3>
-            <div>
-              <svg></svg>
-              <p>JavaScript</p>
-            </div>
-            <div>
-                <svg></svg>
-                <p>Ruby</p>
-            </div>
-            <div>
-                <svg></svg>
-                <p>HTML</p>
-            </div>
-            <div> */}
-                {/* <svg></svg>
-                <p>CSS</p>
-            </div>
-          </div>
-
-          <div>
-            <h3>Frontend</h3>
-            <div>
-                <svg></svg>
-                <p>React</p>
-            </div>
-            <div>
-                <svg></svg>
-                <p>Redux</p>
-            </div>
-            <div>
-                <svg></svg>
-                <p>Gatsby</p> */}
-            {/* </div>
-          </div>
-
-          <div>
-            <h3>Backend</h3>
-            <div>
-                <svg></svg>
-                <p>Ruby on Rails</p>
-            </div>
-            <div>
-                <svg></svg>
-                <p>Node.js</p>
-            </div>
-          </div>
-
-          <div>
-            <h3>Database</h3>
-            <div>
-                <svg></svg>
-                <p>PostgreSQL</p>
-            </div>
-            <div>
-                <svg></svg>
-                <p>MySQL</p>
-            </div> */}
-          {/* </div> */}
-
-        
+            <Skills />
         </div>
       </section>
 

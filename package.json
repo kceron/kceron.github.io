@@ -25,6 +25,8 @@
     "react-helmet": "^6.1.0",
     "react-router-dom": "^5.2.0",
     "react-scrollspy": "^3.4.3",
+    "react-icons": "^3.11.0",
+    "styled-components": "^5.2.1",
     "sass": "^1.30.0",
     "smoothscroll-polyfill": "^0.4.4"
   },
