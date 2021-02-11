@@ -34,6 +34,8 @@ export default class Skills extends Component {
             <h3 className="titlo">Frontend</h3>
             <SiReact fill="#61DAFB" title="React" size={40} />
             <p>React</p>
+            <SiReactStorybook fill="#61DAFB" title="React" size={40} />
+            <p>React</p>
             <SiStyledComponents fill="#DB7093" title="styled-components" size={40}/>
             <p>styled-components</p>
             <SiBootstrap fill="#563D7C" title="Bootstrap" size={40} />
