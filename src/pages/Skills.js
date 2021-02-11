@@ -8,6 +8,7 @@ import {
   SiHtml5,
   SiCss3,
   SiReact,
+  SiReactStorybook,
   SiBootstrap,
   SiStyledComponents,
   SiPostgresql,
