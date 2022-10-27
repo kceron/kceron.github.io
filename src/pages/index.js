@@ -14,9 +14,9 @@ import pic2 from "../assets/images/pic02.png"
 
 const sections = [
   { id: "top", name: "Intro", icon: "fa-home" },
-  { id: "portfolio", name: "Portfolio", icon: "fa-th" },
   { id: "about", name: "About Me", icon: "fa-user" },
   { id: "skills", name: "Skills", icon: "fa-cog" },
+  { id: "portfolio", name: "Portfolio", icon: "fa-th" },
   { id: "contact", name: "Contact", icon: "fa-envelope" },
 ]
 
@@ -31,18 +31,53 @@ const IndexPage = () => (
             <h2 className="alt">
               <strong>Karem Ceron</strong>
               <br />
-              Full-Stack Web Developer
+              Web Developer
             </h2>
-            <p>Here are some of my projects.</p>
+            {/* <p>Here are some of my projects.</p> */}
           </header>
 
-          <footer>
-            <Scroll type="id" element={"portfolio"}>
+          {/* <footer> */}
+            {/* <Scroll type="id" element={"portfolio"}>
               <a href="#portfolio" className="button">
                 Show me
               </a>
-            </Scroll>
-          </footer>
+            </Scroll> */}
+          {/* </footer> */}
+        </div>
+      </section>
+
+      <section id="about" className="three">
+        <div className="container">
+          <header>
+            <h2>About Karem with an "m"</h2>
+          </header>
+
+          <a href="/about" className="image featured">
+            <img src={pic8} alt="" />
+          </a>
+
+          <p>Hello all!</p>
+          <p>
+            I am Karem, and this is my face. I am originally from Mexico, currently located in NYC. I am a Full-Stack Developer with experience building web
+            applications in React, Redux, JavaScript, Ruby on Rails, SQL,
+            PostgreSQL among others.
+          </p>
+
+          <p className="Download-butt">
+            <a href={Resume} className="button" download>
+              <i className="fa fa-download"></i>
+              Download Resume
+            </a>
+          </p>
+        </div>
+      </section>
+
+      <section id="skills" className="four">
+        <div className="container">
+          <header>
+            <h2>Skills</h2>
+          </header>
+            <Skills />
         </div>
       </section>
 
@@ -92,41 +127,6 @@ const IndexPage = () => (
               </article>
             </div> */}
           </div>
-        </div>
-      </section>
-
-      <section id="about" className="three">
-        <div className="container">
-          <header>
-            <h2>About Karem with an "m"</h2>
-          </header>
-
-          <a href="/about" className="image featured">
-            <img src={pic8} alt="" />
-          </a>
-
-          <p>Hello all!</p>
-          <p>
-            I am Karem, and this is my face. I am originally from Mexico, currently located in NYC. I am a Full-Stack Developer with experience building web
-            applications in React, Redux, JavaScript, jQuery, Ruby on Rails, SQL,
-            PostgreSQL among others.
-          </p>
-
-          <p className="Download-butt">
-            <a href={Resume} className="button" download>
-              <i className="fa fa-download"></i>
-              Download Resume
-            </a>
-          </p>
-        </div>
-      </section>
-
-      <section id="skills" className="four">
-        <div className="container">
-          <header>
-            <h2>Skills</h2>
-          </header>
-            <Skills />
         </div>
       </section>
 
